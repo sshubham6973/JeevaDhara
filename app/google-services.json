@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "726540995483",
+    "firebase_url": "https://jeeva-dhara-85750.firebaseio.com",
+    "project_id": "jeeva-dhara-85750",
+    "storage_bucket": "jeeva-dhara-85750.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726540995483:android:6f36eec932a253e60bef3e",
+        "android_client_info": {
+          "package_name": "com.harsh_shubham.jeeva_dhara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726540995483-dv0875c51uluc3qqg59946b3t0n77o4l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.harsh_shubham.jeeva_dhara",
+            "certificate_hash": "c476ccaa1cc8311a585e4bfb7e2299c39069c14c"
+          }
+        },
+        {
+          "client_id": "726540995483-mgtugj1ps2uo8rmnch89atrtvdc72qut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGtPRKrR2DyxWXZR0CCnp7DCSb-HPhnts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726540995483-mgtugj1ps2uo8rmnch89atrtvdc72qut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

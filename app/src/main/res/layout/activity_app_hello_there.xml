@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_2"
+    android:visibility="visible"
+    tools:context=".app_hello_there">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="11dp"
+        android:text="@string/title_hello_there"
+        android:textColor="@color/color_1"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_back" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/title_hello_there_2"
+        android:textColor="@color/color_1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/view_flipper"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/btn_back" />
+
+    <ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_width="386dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="12dp">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:text="@string/title_hello_Enter"
+                android:textColor="@color/color_1"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="374dp" />
+
+            <EditText
+                android:id="@+id/edit_text_phone"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/white_edit_text_background"
+                android:cursorVisible="true"
+                android:digits="1234567890"
+                android:ems="10"
+                android:filterTouchesWhenObscured="true"
+                android:hapticFeedbackEnabled="false"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:paddingStart="20sp"
+                android:paddingEnd="20sp"
+                android:textColor="@color/color_2"
+                android:textColorHighlight="@color/color_2"
+                android:textCursorDrawable="@color/color_2"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="409dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="12dp">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:text="@string/title_hello_Enter_1"
+                android:textColor="@color/color_1"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="374dp" />
+
+            <EditText
+                android:id="@+id/edit_text_otp"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/white_edit_text_background"
+                android:digits="1234567890"
+                android:ems="10"
+                android:inputType="phone"
+                android:maxLength="6"
+                android:paddingStart="20sp"
+                android:paddingEnd="20sp"
+                android:textColor="@color/color_2"
+                android:textColorHighlight="@color/color_2"
+                android:textCursorDrawable="@color/color_2"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="409dp" />
+
+        </LinearLayout>
+    </ViewFlipper>
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="124dp"
+        android:layout_height="56dp"
+        android:layout_gravity="right"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="137dp"
+        android:background="@drawable/yellow_button_background"
+        android:text="@string/btn_next"
+        android:textAllCaps="false"
+        android:textColor="@color/color_2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/text_status"
+        app:layout_constraintEnd_toEndOf="@+id/view_flipper"
+        app:layout_constraintTop_toBottomOf="@+id/view_flipper" />
+
+    <TextView
+        android:id="@+id/text_status"
+        android:layout_width="352dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="54dp"
+        android:text="@string/status"
+        android:textColor="@color/color_1"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_next" />
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="31dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="218dp"
+        android:layout_marginBottom="70dp"
+        android:onClick="back_clicked"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

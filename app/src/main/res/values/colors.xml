@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_1">#FFFFFF</color>
+    <color name="color_2">#F56161</color>
+    <color name="color_3">#EEFF51</color>
+    <color name="front_card_yellow">#F5FF9E</color>
+    <color name="gray_edit_text_box">#DBD9D9</color>
+    <color name="gray_edit_text">#B50E0E</color>
+    <color name="nav_color">#C0C0C0</color>
+</resources>

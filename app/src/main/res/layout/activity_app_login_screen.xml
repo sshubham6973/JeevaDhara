@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_2"
+    tools:context=".app_login_screen">
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginBottom="29dp"
+        android:text="@string/als_01"
+        android:textColor="@color/color_1"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="154dp"
+        android:text="@string/als_02"
+        android:textColor="@color/color_1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView22"
+        app:layout_constraintStart_toStartOf="@+id/textView21"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="541dp"
+        android:text="@string/als_03"
+        android:textColor="@color/color_1"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/als_05"
+        android:textColor="@color/color_1"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
+        app:layout_constraintEnd_toEndOf="@+id/checkBox2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="104dp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="296dp"
+        android:onClick="forgot_password_clicked"
+        android:text="@string/als_07"
+        android:textColor="@color/color_3"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/checkBox2" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="121dp"
+        android:layout_height="24dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/als_04"
+        android:textColor="@color/color_1"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/textView22"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="357dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="304dp"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/white_edit_text_background"
+        android:digits = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.@"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:paddingStart="20sp"
+        android:paddingEnd="20sp"
+        android:textColor="@color/color_2"
+        android:textCursorDrawable="@color/color_2"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView30"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="353dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/white_edit_text_background"
+        android:ems="10"
+        android:maxLength="15"
+        android:inputType="textPassword"
+        android:paddingStart="20sp"
+        android:paddingEnd="20sp"
+        android:textColor="@color/color_2"
+        android:textCursorDrawable="@color/color_2"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox2"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="13dp"
+        android:buttonTint="@color/color_3"
+        android:text="@string/als_06"
+        android:textColor="@color/color_1"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/textView30"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="137dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/yellow_button_background"
+        android:text="@string/als_08"
+        android:textAllCaps="false"
+        android:textColor="@color/color_2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView31"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/checkBox2"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/als_09"
+        android:textColor="@color/color_1"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginBottom="65dp"
+        android:text="@string/als_10"
+        android:textColor="@color/color_1"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/textView31"
+        app:srcCompat="@drawable/line" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="7dp"
+        android:onClick="pin_pressed"
+        app:layout_constraintBottom_toTopOf="@+id/textView32"
+        app:layout_constraintEnd_toEndOf="@+id/textView32"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/lock" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:paddingStart="15sp"
+        android:text="@string/als_11"
+        android:textColor="@color/color_1"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

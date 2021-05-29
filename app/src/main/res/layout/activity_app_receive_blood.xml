@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_2"
+    tools:context=".app_receive_blood">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="281dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/founder_back"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:onClick="receive_back_clicked"
+            app:srcCompat="@drawable/back_button" />
+
+        <TextView
+            android:id="@+id/textView89"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10sp"
+            android:paddingTop="0sp"
+            android:text="@string/arb_1"
+            android:textColor="@color/color_1"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView90"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10sp"
+            android:text="@string/arb_2"
+            android:textColor="@color/color_3"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20sp"
+                android:text="@string/arb_3"
+                android:textColor="@color/color_1"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView92"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:paddingStart="20sp"
+                android:text="@string/arb_4"
+                android:textColor="@color/color_1"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="15sp"
+                android:layout_marginEnd="30sp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/receive_rbc"
+                    android:layout_width="19dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="10sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_edit_text_background"
+                    android:digits="0123456789"
+                    android:ems="10"
+                    android:hint="RBC"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:paddingStart="20sp"
+                    android:paddingEnd="20sp"
+                    android:textColor="@color/color_2"
+                    android:textCursorDrawable="@color/color_2"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/receive_wbc"
+                    android:layout_width="19dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="10sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_edit_text_background"
+                    android:digits="0123456789"
+                    android:ems="10"
+                    android:hint="WBC"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:paddingStart="20sp"
+                    android:paddingEnd="20sp"
+                    android:textColor="@color/color_2"
+                    android:textCursorDrawable="@color/color_2"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:paddingStart="20sp"
+                android:text="@string/arb_7"
+                android:textColor="@color/color_1"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/receive_purpose"
+                android:layout_width="343dp"
+                android:layout_height="85dp"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginEnd="20sp"
+                android:background="@drawable/card_blank"
+                android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz "
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:paddingStart="20sp"
+                android:paddingTop="10sp"
+                android:paddingEnd="20sp"
+                android:paddingBottom="5sp"
+                android:textColor="@color/color_2"
+                android:textCursorDrawable="@color/color_2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:paddingStart="20sp"
+                android:text="@string/arb_8"
+                android:textColor="@color/color_1"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/receive_hospital"
+                android:layout_width="351dp"
+                android:layout_height="58dp"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginEnd="20sp"
+                android:background="@drawable/white_edit_text_background"
+                android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxy z"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingStart="20sp"
+                android:paddingEnd="20sp"
+                android:textColor="@color/color_2"
+                android:textCursorDrawable="@color/color_2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView95"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:paddingStart="20sp"
+                android:text="Blood Group of Patient"
+                android:textColor="@color/color_1"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/receive_group"
+                android:layout_width="129dp"
+                android:layout_height="58dp"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="10sp"
+                android:background="@drawable/white_edit_text_background"
+                android:digits="ABO+-"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:maxLength="3"
+                android:paddingStart="20sp"
+                android:paddingEnd="20sp"
+                android:textColor="@color/color_2"
+                android:textCursorDrawable="@color/color_2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView96"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:paddingStart="20sp"
+                android:paddingEnd="10sp"
+                android:text="@string/arb_9"
+                android:textColor="@color/color_3"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView97"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:paddingStart="20sp"
+                android:text="@string/arb_10"
+                android:textColor="@color/color_1"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:paddingStart="20sp"
+                android:text="@string/arb_11"
+                android:textColor="@color/color_1"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:buttonTint="@color/color_3"
+                android:text="@string/arb_12"
+                android:textColor="@color/color_3"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:paddingStart="20sp"
+                android:paddingEnd="20sp"
+                android:text="@string/arb_13"
+                android:textColor="@color/color_3"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40sp"
+                android:paddingStart="40sp"
+                android:text="@string/arb_14"
+                android:textColor="@color/color_1"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/receive_call"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:paddingStart="125sp"
+                android:text="022-21523452"
+                android:autoLink="phone"
+                android:linksClickable="true"
+                android:textColor="@color/color_3"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="114dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/yellow_button_background"
+                android:text="Request"
+                android:textAllCaps="false"
+                android:textColor="@color/color_2"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

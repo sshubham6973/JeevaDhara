@@ -1,0 +1,218 @@
+<resources>
+    <string name="app_name">Jeeva Dhara</string>
+
+    <!-- app_no_internet -->
+    <string name="ani_1">Please make sure that you are connected to a network and your network is active.</string>
+    <string name="ani_2">Refresh</string>
+
+    <!-- app_welcome_screen -->
+    <string name="title_sub">Save Lives, Donate Blood</string>
+    <string name="title_sub_1">रक्तदान श्रेष्ठदान</string>
+
+    <!-- app_hello_there-->
+    <string name="title_hello_there">Hello There!</string>
+    <string name="title_hello_there_2">नमस्कार</string>
+    <string name="title_hello_Enter">-> Enter Your Mobile Number (+91)</string>
+    <string name="btn_next">Next</string>
+    <string name="title_hello_Enter_1">-> Enter OTP</string>
+    <string name="btn_verify">Verify</string>
+    <string name="status">By Clicking Verify, you accept all our policies of our respective
+organizations. Violation of any policies may loose your access to
+account. In some cases, legal action may also take place.</string>
+
+    <!-- app_user_registration -->
+    <string name="title_hello_user">Hello,User</string>
+    <string name="sub_title_1">कृपया अपना लॉगिन विवरण दर्ज करें</string>
+    <string name="sub_title_2">Kindly Fill your Login Details</string>
+    <string name="form_1">My First-Name</string>
+    <string name="form_2">Last-Name</string>
+    <string name="form_3">Date of Birth (dd/mm/yyyy)</string>
+    <string name="form_4">I am</string>
+    <string name="form_5">My Blood Group is</string>
+    <string name="form_6">My Email Id (will be used as username)</string>
+    <string name="form_7">My Preferable Branch</string>
+    <string name="status_1">(It cannot be changed later. Providing corrupt information is
+  against our policies. Your Blood Group will be verified at every
+  donation)</string>
+    <string name="status_2">(M-Mumbai , P-Pune)</string>
+    <string name="status_3">I accept all your policies and I commit that all information
+provided here is 100% accurate. Any discrepancies may result in
+banning my account and also legal actions may be taken against
+me.</string>
+    <string name="btn_register">Register</string>
+
+
+    <!-- app_set_password_and_login_pin-->
+    <string name="title_set">Set Password</string>
+    <string name="title_set_1">Change Password</string>
+    <string name="title_secure"> Secure your account</string>
+    <string name="sub_title_enter_password">-> Enter Password</string>
+    <string name="sub_title_enter_password_2">-> Re-enter Password</string>
+    <string name="btn_set_password">Set Password</string>
+    <string name="title_100">Set Login PIN</string>
+    <string name="title_101">For Easier Unlocking</string>
+    <string name="title_102">-> Enter Login PIN</string>
+    <string name="title_103">-> Re-Enter PIN</string>
+    <string name="title_104">Sign Up</string>
+    <string name="status_100">We will not keep your private details, unless you create your account</string>
+    <string name="status_99">Password should consist of at least one lowercase,digit,uppercase and special character.Length of password should be greater than 8 characters.</string>
+
+    <!-- app_login_screen -->
+    <string name="als_01">Welcome!</string>
+    <string name="als_02">प्रणाम</string>
+    <string name="als_03">Enter Login Details linked to
+verified Mobile Number</string>
+    <string name="als_04">-> Enter Email Id </string>
+    <string name="als_05">-> Enter Password </string>
+    <string name="als_06"> Show Password</string>
+    <string name="als_07">Forgot Password</string>
+    <string name="als_08">Login</string>
+    <string name="als_09">Or Login via</string>
+    <string name="als_10">Security PIN</string>
+    <string name="als_11">Note that you can also login without knowing password but, you will be unable to schedule appointments.</string>
+
+    <!-- app_pin_verification -->
+    <string name="apv_01">Enter Login PIN</string>
+    <string name="apv_1_01">Verify yourself</string>
+    <string name="apv_02">Are you really Shubham?</string>
+    <string name="apv_03">-> Enter your security PIN</string>
+    <string name="apv_04"> For changing Security PIN, Please contact our Helpline Number or visit your
+ preferred branch with your valid Government ID and follow the procedures given by bank
+ accordingly.</string>
+    <string name="apv_05">Login</string>
+    <string name="apv_1_02">Verify</string>
+    <string name="apv_06">PIN tries = 3</string>
+    <string name="apv_1_03">Only 2 edits are allowed.</string>
+
+    <!-- app_forgot_password -->
+    <string name="afp_01">Enter PIN</string>
+    <string name="afp_02">-> Enter your PIN to continue  </string>
+    <string name="afp_03">Verify</string>
+
+    <!-- app_forgot_password_2-->
+    <string name="afp_2_1">-> Enter new Password</string>
+
+    <!-- main_activity -->
+    <string name="ma_01">सुस्वागतम</string>
+    <string name="ma_02">Have a Nice Day!!</string>
+    <string name="ma_03"> Critical Donations</string>
+    <string name="ma_04">(Donors can directly visit their preferred branch)</string>
+    <string name="ma_05">->Accident Case near Bhandup.Need O+ blood urgently</string>
+    <string name="ma_06">->Old man needs AB- blood</string>
+    <string name="ma_07">Activities</string>
+    <string name="ma_08">DONATE BLOOD</string>
+    <string name="ma_09">Receive Blood for friend</string>
+    <string name="ma_10">My Activities</string>
+    <string name="ma_10_1">Last Blood Donation Report</string>
+    <string name="ma_10_2">My Blood Report</string>
+
+    <string name="ma_10_3">Hemoglobin (g/dl)</string>
+    <string name="ma_10_4">RBC count (10^6/uL)</string>
+    <string name="ma_10_5">HCT(%)</string>
+    <string name="ma_10_6">MCV(fl)</string>
+    <string name="ma_10_7">MCH(pg)</string>
+    <string name="ma_10_8">MCHC(g/dl)</string>
+
+    <string name="ma_11">Who Can/Cannot Donate?</string>
+    <string name="ma_12">Blood Donation Facts</string>
+    <string name="ma_13">(For privacy reasons, if you are unable to see
+ your location, please grant permission from
+ device settings).</string>
+    <string name="ma_14">About Us</string>
+    <string name="ma_15">About the founders</string>
+    <string name="ma_16">An initiative by</string>
+    <string name="ma_17">Donors Choose and Akshaya Trust</string>
+
+    <!-- app_change_details -->
+    <string name="acd_01">Kindly Update your details</string>
+    <string name="acd_02"> For changing Security PIN . Please contact our
+ Helpline Number or visit your preferred branch and follow the procedures
+ accordingly.</string>
+
+    <!-- app_donate_blood -->
+    <string name="adb_01"> Please Read our Rules and Regulations before proceeding for Blood Donation </string>
+    <string name="adb_02">Your appointment will be scheduled today at </string>
+    <string name="adb_03">your preferred branch based on availability.</string>
+    <string name="adb_04">You should neither have a tattoo nor consumed alcohol,toxic products,etc for a month</string>
+    <string name="adb_05">Get a valid Physical Certificate from a verified doctor at the time of donation. Certificate must be at most 2 days old.</string>
+    <string name="adb_06">We will conduct physical and blood test to decide the no. of pints. If any violation is observed in test results then, we have the full authority to take legal actions against you.</string>
+    <string name="adb_07">After successful donation, you cannot perform any other donation for next three months.</string>
+    <string name="adb_08">I accept all your rules and regulations. If found guilty,Jeeva Dhara has full authority to take legal actions against me</string>
+
+
+    <!-- app_receive_blood -->
+    <string name="arb_1">Receive Blood</string>
+    <string name="arb_2">Wishing your friend a speedy recovery</string>
+    <string name="arb_3">Fill a Mini-Blood Request Form</string>
+    <string name="arb_4">How many units do you need? (Enter no. of pints)</string>
+    <string name="arb_5">pints of RBC.</string>
+    <string name="arb_6">pints of WBC. </string>
+    <string name="arb_7">Specify your Purpose</string>
+    <string name="arb_8">Hospital Name </string>
+    <string name="arb_9">Is Patient is in Critical State as mentioned by your doctor? </string>
+    <string name="arb_10">  If Yes, then contact our emergency service which will deliver blood to you as fast as possible.</string>
+    <string name="arb_11">Normal Request takes up to 1 hour to process. Emergency Service will deliver approx. 20–25 min. This time is relative with distance between hospital and emergency service. By accepting rules and regulations,the request will be transferred to emergency service.</string>
+    <string name="arb_12">I accept all your rules and regulations of emergency service. If found guilty,JeevaDhara has full authority to take legal actions against me.</string>
+    <string name="arb_13">   (Note: Doctor should mention that patient is in critical state then only accept it and misuse of service can result in legal actions)</string>
+    <string name="arb_14">   You can also place a call on for using this service.</string>
+
+    <!-- app_who_can -->
+    <string name="awc_1">Let others benefit from your good health.
+ Do donate blood if ...</string>
+    <string name="awc_2"> >You are between age group of 18-60 years and your weight is 45 kgs or more.</string>
+    <string name="awc_3"> >Your hemoglobin is 12.5 gm% minimum and your last blood donation was 3 months earlier.</string>
+    <string name="awc_4">>You are healthy and have not suffered from malaria, typhoid or other transmissible disease in the recent past.</string>
+    <string name="awc_5">There are many, many people who meet these parameters of health and fitness!</string>
+
+    <string name="awc_6">Do not donate blood if you have any of these conditions.</string>
+    <string name="awc_7">>cold / fever in the past 1 week</string>
+    <string name="awc_8">>Under treatment with antibiotics or any other medication.</string>
+    <string name="awc_9">> Cardiac problems, hypertension, epilepsy,diabetes (on insulin therapy), history of cancer,chronic kidney or liver disease, bleeding tendencies,venereal disease etc.major surgery in the last 6 months.</string>
+    <string name="awc_10">>Vaccination in the last 24 hours.had a miscarriage in the last 6 months or have been pregnant / lactating in the last one year.</string>
+    <string name="awc_11">>Had fainting attacks during last donation,have regularly received treatment with blood products.</string>
+    <string name="awc_12">>Shared a needle to inject drugs/ have history of drug addiction or had sexual relations with different partners or with a high risk individual.</string>
+    <string name="awc_13">>Females should not donate blood during pregnancy.They can donate after 6 months following a normal delivery and when they are not breast feeding. </string>
+    <string name="awc_14">>Females should not donate blood if they are having heavy menstrual flow or menstrual cramps.</string>
+
+    <!-- app_blood_facts -->
+    <string name="abf_1">>  Every year our nation requires about 5 Crore units of blood, out of which only a meager 2.5 Crore units of blood are available</string>
+    <string name="abf_2"> > The gift of blood is the gift of life. There is no substitute for human blood.</string>
+    <string name="abf_3">> More than 1 million new people are diagnosed with cancer each year. Many of them will need blood, sometimes daily, during their chemotherapy treatment</string>
+    <string name="abf_4">> Donating blood is a safe process.A sterile needle is used only once for each donor and then discarded.</string>
+    <string name="abf_5">> The actual blood donation typically takes less than 10–12 minutes. The entire process, from the time you arrive to the time you leave, takes about an hour and 15 min.</string>
+
+    <string name="abf_6">> A healthy donor may donate red blood cells every 56 days, or double red cells every 112 days.</string>
+    <string name="abf_7">> All donated blood is tested for HIV, hepatitis B and C, syphilis and other infectious diseases before it can be transfused to patients. </string>
+    <string name="abf_8"> > Blood makes up about 7 percent of your body weight.</string>
+    <string name="abf_9"> > The number one reason donors say they give blood is because they "want to help others."</string>
+    <string name="abf_10"> > Type O-negative blood is needed in emergencies before the patient blood type is known and with newborns who need blood.</string>
+    <string name="abf_11">> Thirty-five percent of people have Type O (positive or negative) blood.</string>
+    <string name="abf_12">> If you began donating blood at age 18 and donated every 90 days until you reached 60, you would have donated 30 gallons of blood, potentially helping save more than 500 lives</string>
+
+    <!-- app_founders -->
+    <string name="af_1">JeevaDhara</string>
+    <string name="af_2"> Have you at anytime witnessed a relative of yours
+ or a close friend searching frantically for a blood
+donor, when blood banks say out of stock, the
+donors in mind are out of reach and the time
+keeps ticking? Have you witnessed loss of life
+ for the only reason that a donor was not available
+at the most needed hour? Is it something that we
+as a society can do nothing to prevent? This
+thought laid our foundation.
+</string>
+    <string name="af_3">Our vision is to be “The hope of every Indian in
+search of a voluntary blood donor”
+</string>
+    <string name="af_4">Our motto - “Donate blood to save the most
+precious human life”</string>
+
+    <string name="af_5">App designed by : Harsh Singh (D12B-57),
+                              Shubham Singh (D12B-59)
+                              Designed in Adobe XD.</string>
+    <string name="af_6">App developed by : Shubham Singh (D12B-59)</string>
+    <string name="af_7">Database : Google Firebase with OTP FireAuth</string>
+    <string name="af_8">This app is only for demonstration use only </string>
+
+
+</resources>

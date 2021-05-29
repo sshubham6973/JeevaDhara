@@ -1,0 +1,23 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryDark">#F56161</item>
+        <item name="colorAccent">#EEFF51</item>
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+        <item name="android:navigationBarColor">#C0C0C0</item>
+        <item name="android:statusBarColor">#C0C0C0</item>
+    </style>
+
+
+    <!-- Setting up Activity Transition Animation -->
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+
+</resources>

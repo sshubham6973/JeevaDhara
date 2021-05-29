@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_2"
+    tools:context=".app_who_can">
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginBottom="28dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            app:srcCompat="@drawable/back_button" />
+
+        <TextView
+            android:id="@+id/textView102"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10sp"
+            android:paddingTop="0sp"
+            android:text="Who can/can't donate?"
+            android:textColor="@color/color_1"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:paddingStart="15sp"
+                android:text="@string/awc_1"
+                android:textColor="@color/color_1"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView104"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:paddingStart="20sp"
+                android:text="@string/awc_2"
+                android:textColor="@color/color_3"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:paddingStart="20sp"
+                android:text="@string/awc_3"
+                android:textColor="@color/color_3"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView106"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:paddingStart="20sp"
+                android:paddingEnd="20dp"
+                android:text="@string/awc_4"
+                android:textColor="@color/color_3"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView107"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:paddingStart="15sp"
+                android:text="@string/awc_5"
+                android:textColor="@color/color_1"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView108"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20sp"
+                android:paddingStart="10sp"
+                android:text="Can't Donate"
+                android:textColor="@color/color_1"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView109"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:paddingStart="15sp"
+                android:text="@string/awc_6"
+                android:textColor="@color/color_1"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView110"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:paddingStart="20sp"
+                android:text="@string/awc_7"
+                android:textColor="@color/color_3"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:paddingStart="20sp"
+                android:text="@string/awc_8"
+                android:textColor="@color/color_3"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView112"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:paddingStart="20sp"
+                android:paddingEnd="35sp"
+                android:text="@string/awc_9"
+                android:textColor="@color/color_3"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView113"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:paddingStart="20sp"
+                android:text="@string/awc_10"
+                android:textColor="@color/color_3"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:paddingStart="20sp"
+                android:paddingEnd="20sp"
+                android:text="@string/awc_11"
+                android:textColor="@color/color_3"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView115"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:paddingStart="20sp"
+                android:paddingEnd="20sp"
+                android:text="@string/awc_12"
+                android:textColor="@color/color_3"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView116"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="20dp"
+                android:paddingStart="10sp"
+                android:text="Pregnancy and Menstrual Cycle"
+                android:textColor="@color/color_1"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView117"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:paddingStart="20sp"
+                android:paddingEnd="20sp"
+                android:text="@string/awc_13"
+                android:textColor="@color/color_3"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView118"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="60dp"
+                android:paddingStart="20sp"
+                android:paddingEnd="20sp"
+                android:text="@string/awc_14"
+                android:textColor="@color/color_3"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
